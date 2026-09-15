@@ -22,7 +22,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### 2. Install from GitHub
 ```bash
-uv pip install git+https://github.com/peon-ai/peon-orchestrator.git
+uv pip install git+https://github.com/prmgint/peon-ai-orchestrator.git
 ```
 
 ### 3. Local Installation (for development)
