@@ -1,0 +1,12 @@
+.venv/
+.peon-orchestrator/
+__pycache__/
+*.pyc
+*.egg-info/
+.project
+.pydevproject
+.settings/
+agent_test_output.txt
+demo_output.txt
+verify_output.txt
+verify_output2.txt

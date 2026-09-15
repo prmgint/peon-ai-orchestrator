@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peon-orchestrator"
+version = "0.3.2"
+description = "MCP orchestrator for Peon AI"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.0.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0"
+]
+
+[project.scripts]
+peon-orchestrator = "peon_orchestrator.__main__:main_sync"
+
+[tool.setuptools.packages.find]
+include = ["peon_orchestrator*"]
